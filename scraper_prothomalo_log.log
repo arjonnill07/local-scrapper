@@ -1,0 +1,21 @@
+2025-07-07 17:46:37,076 - INFO - --- Starting Scraping for Prothom Alo with Human Emulation ---
+2025-07-07 17:46:45,243 - INFO - patching driver executable C:\Users\ASUS\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-07 17:46:51,023 - INFO - 
+--- Starting section: https://www.prothomalo.com/bangladesh ---
+2025-07-07 17:46:56,955 - INFO - Human behavior: Simulating reading for 3-6s...
+2025-07-07 17:47:03,167 - INFO - Human behavior: Mouse drifted.
+2025-07-07 17:47:06,208 - INFO - Human behavior: Mouse moved to element.
+2025-07-07 17:47:07,562 - INFO - Human behavior: Element clicked.
+2025-07-07 17:47:13,457 - INFO - Human behavior: Mouse moved to element.
+2025-07-07 17:47:14,861 - INFO - Human behavior: Element clicked.
+2025-07-07 17:47:20,809 - INFO - Human behavior: Mouse moved to element.
+2025-07-07 17:47:28,110 - INFO - Human behavior: Element clicked.
+2025-07-07 17:47:40,434 - INFO - Human behavior: Mouse moved to element.
+2025-07-07 17:47:41,522 - INFO - Human behavior: Element clicked.
+2025-07-07 17:47:50,115 - INFO - Human behavior: Mouse moved to element.
+2025-07-07 17:47:55,814 - INFO - Human behavior: Element clicked.
+2025-07-07 17:48:06,726 - INFO - Human behavior: Mouse moved to element.
+2025-07-07 17:48:17,973 - INFO - Human behavior: Element clicked.
+2025-07-07 17:48:43,018 - INFO - No 'Load More' button found. End of content for this section.
+2025-07-07 17:48:43,020 - INFO - 
+--- Finalizing Data ---
