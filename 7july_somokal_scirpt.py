@@ -106,18 +106,37 @@ def parse_samakal_date(date_str):
         return None
 
 # Helper to save progress
-def save_checkpoint(articles, filename):
-    if articles:
-        df = pd.DataFrame(articles)
-        df = df.sort_values(by='published_date', ascending=False).drop_duplicates(subset=['url'])
-        df.to_csv(filename, index=False, encoding='utf-8-sig')
-        logging.info(f"Checkpoint saved: {len(df)} articles to '{filename}'")
+def save_checkpoint(articles, filename, main_csv=None):
+    if not articles:
+        return
+    # Load existing checkpoint if it exists
+    if os.path.exists(filename):
+        try:
+            existing_df = pd.read_csv(filename, parse_dates=['published_date'])
+            existing_articles = existing_df.to_dict('records')
+        except Exception as e:
+            logging.warning(f"Could not load existing checkpoint for merge: {e}")
+            existing_articles = []
+    else:
+        existing_articles = []
+    # Merge new articles with existing
+    all_articles = existing_articles + articles
+    df = pd.DataFrame(all_articles)
+    # Ensure published_date is datetime
+    df['published_date'] = pd.to_datetime(df['published_date'], errors='coerce')
+    df = df.sort_values(by='published_date', ascending=False).drop_duplicates(subset=['url'])
+    df.to_csv(filename, index=False, encoding='utf-8-sig')
+    logging.info(f"Checkpoint saved: {len(df)} unique articles to '{filename}' (merged)")
+    # Also update main output CSV if provided
+    if main_csv:
+        df.to_csv(main_csv, index=False, encoding='utf-8-sig')
+        logging.info(f"Main CSV updated: {len(df)} unique articles to '{main_csv}' (synced with checkpoint)")
 
 # Helper to load checkpoint
 def load_checkpoint(filename):
     if os.path.exists(filename):
         try:
-            df = pd.read_csv(filename)
+            df = pd.read_csv(filename, parse_dates=['published_date'])
             articles = df.to_dict('records')
             urls = set(df['url'])
             logging.info(f"Loaded checkpoint: {len(articles)} articles from '{filename}'")
@@ -237,6 +256,8 @@ def main(args):
                                         'description': description,
                                         'published_date': published_date
                                     })
+                                    # Log full article details for recovery
+                                    logging.info(f"ARTICLE_LOG | url={url} | title={title} | date={published_date} | desc={description}")
                                     total_saved += 1
                                     if total_saved % PROGRESS_LOG_INTERVAL == 0:
                                         logging.info(f"Progress: {total_saved} articles saved so far.")
@@ -246,14 +267,14 @@ def main(args):
                                         break
                                     # Periodically save and clear memory
                                     if len(all_articles) % BATCH_SIZE == 0:
-                                        save_checkpoint(all_articles, CHECKPOINT_FILE)
+                                        save_checkpoint(all_articles, CHECKPOINT_FILE, csv_output_filename)
                                         all_articles = []
                             except (NoSuchElementException, AttributeError) as e:
                                 logging.warning(f"Could not parse an article element. Skipping. Error: {e}")
                             except Exception as e:
                                 logging.error(f"Unexpected error while processing article: {e}")
                         last_article_count = current_article_count
-                        save_checkpoint(all_articles, CHECKPOINT_FILE)
+                        save_checkpoint(all_articles, CHECKPOINT_FILE, csv_output_filename)
                         all_articles = []  # Clear memory after each scroll batch
                         # PRIMARY STOPPING CONDITION
                         if article_elements:
@@ -296,12 +317,13 @@ def main(args):
             else:
                 logging.critical("Max retries reached. Exiting.")
         finally:
-            save_checkpoint(all_articles, CHECKPOINT_FILE)
+            save_checkpoint(all_articles, CHECKPOINT_FILE, csv_output_filename)
             all_articles = []  # Clear memory after each retry
     # Final save
     if os.path.exists(CHECKPOINT_FILE):
         try:
-            df = pd.read_csv(CHECKPOINT_FILE)
+            df = pd.read_csv(CHECKPOINT_FILE, parse_dates=['published_date'])
+            df['published_date'] = pd.to_datetime(df['published_date'], errors='coerce')
             df = df.sort_values(by='published_date', ascending=False).drop_duplicates(subset=['url'])
             df.to_csv(csv_output_filename, index=False, encoding='utf-8-sig')
             logging.info(f"\n✅ Success! {len(df)} unique articles saved to '{csv_output_filename}'")
