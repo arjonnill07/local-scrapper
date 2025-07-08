@@ -1,8 +1,8 @@
 # =============================================================================
-# Bonik Barta Interactive Scraper (Final Corrected Selectors)
+# Bonik Barta Interactive Scraper (Final Version - Corrected)
 #
-# This version uses robust descendant selectors to correctly find the title
-# and date elements nested within the main article container.
+# This version includes definitive fixes for date parsing and the "Next" button
+# selector based on the latest logs and HTML analysis.
 # =============================================================================
 
 import time
@@ -13,7 +13,7 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, ElementClickInterceptedException
 from selenium.webdriver.common.action_chains import ActionChains
 import random
 import argparse
@@ -31,17 +31,19 @@ except ImportError:
 LOG_FILENAME = 'scraper_bonikbarta_log.log'
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler(LOG_FILENAME, 'w', 'utf-8'), logging.StreamHandler()])
 
-# --- CSS Selectors (Corrected for Nested Elements) ---
+# --- CSS Selectors ---
 ARTICLE_BLOCK_SELECTOR = "div.grow.group"
-LINK_SELECTOR = "h3 a"  # Use a descendant selector (space) for robustness
+LINK_SELECTOR = "h3 a"
 DATELINE_SELECTOR = "p.text-bb-text"
-NEXT_PAGE_BUTTON_SELECTOR = "a[rel='next']"
+# CORRECTED: The "Next" button is a <button> identified by its aria-label.
+NEXT_PAGE_BUTTON_SELECTOR = "button[aria-label='Next']"
 
 # --- Scraper Settings ---
 CHECKPOINT_FILE = "checkpoint_bonikbarta_last_batch.csv"
-MAX_RETRIES = 5
+MAX_RETRIES = 5 # Set to 1 as we are running interactively
 BATCH_SIZE = 100
-MAX_PAGES = 200
+MAX_PAGES = 1200
+
 
 class HumanBehavior:
     def __init__(self, driver):
@@ -68,9 +70,10 @@ class HumanBehavior:
 def parse_bonikbarta_date(date_str):
     if not date_str: return None
     try:
-        return dateparser.parse(date_str, languages=['bn', 'en']).replace(tzinfo=None)
+        parsed_dt = dateparser.parse(date_str, languages=['bn', 'en'])
+        return parsed_dt.replace(tzinfo=None) if parsed_dt else None
     except Exception as e:
-        logging.error(f"Date parse error for string '{date_str}': {e}")
+        logging.error(f"Error parsing date string '{date_str}': {e}")
         return None
 
 def save_progress(articles_batch, main_csv_path, checkpoint_path):
@@ -108,7 +111,7 @@ def main(args):
             options = uc.ChromeOptions()
             options.add_argument(f"--user-data-dir={args.profile_path}")
             driver = uc.Chrome(options=options, use_subprocess=True, headless=False)
-            wait = WebDriverWait(driver, 10) # Using a 10-second wait
+            wait = WebDriverWait(driver, 10)
             human_behavior = HumanBehavior(driver)
 
             driver.get("https://www.bonikbarta.com/search/")
@@ -135,12 +138,9 @@ def main(args):
                     try:
                         link_el = element.find_element(By.CSS_SELECTOR, LINK_SELECTOR)
                         date_el = element.find_element(By.CSS_SELECTOR, DATELINE_SELECTOR)
-
                         relative_url = link_el.get_attribute("href")
                         url = "https://www.bonikbarta.com" + relative_url if relative_url.startswith("/") else relative_url
-                        
                         if not url or url in processed_urls: continue
-
                         title = link_el.text.strip()
                         date_str = date_el.text.strip()
                         published_date = parse_bonikbarta_date(date_str)
@@ -152,34 +152,42 @@ def main(args):
                         article_data = {'url': url, 'title': title, 'description': "", 'published_date': published_date}
                         articles_batch.append(article_data)
                         processed_urls.add(url)
+                        logging.info(f"Successfully scraped: {title}")
 
                         if args.max_articles and len(processed_urls) >= args.max_articles:
-                            logging.info(f"Reached max articles limit of {args.max_articles}."); stop_requested = True; break
+                            logging.info(f"Reached max articles limit."); stop_requested = True; break
                         if len(articles_batch) >= BATCH_SIZE:
                             save_progress(articles_batch, args.output_file, CHECKPOINT_FILE); articles_batch = []
                     except NoSuchElementException:
-                        # This handles cases where a div matches ARTICLE_BLOCK_SELECTOR but isn't a real article (e.g., an ad block)
                         logging.warning("An element matched the article selector but was missing an inner title/date. Skipping.")
                     except Exception as e:
                         logging.error(f"An unexpected error occurred while processing an article: {e}")
 
                 if stop_requested: break
 
+                # --- CORRECTED PAGINATION LOGIC ---
                 try:
-                    next_page_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, NEXT_PAGE_BUTTON_SELECTOR)))
+                    logging.info("Searching for 'Next' page button...")
+                    # Wait for the button to be PRESENT in the DOM, which is more reliable.
+                    next_page_button = wait.until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, NEXT_PAGE_BUTTON_SELECTOR))
+                    )
+                    # Additionally, check if it's disabled, which indicates the last page.
+                    if next_page_button.get_attribute("disabled"):
+                        logging.info("'Next' button is disabled. Reached the end of the results.")
+                        break
+                    
                     logging.info("Found 'Next' page button. Clicking it.")
                     human_behavior.scroll_like_human(target_element=next_page_button)
                     human_behavior.move_to_and_safely_click(next_page_button)
                     human_behavior.random_sleep(2, 4)
                 except TimeoutException:
-                    logging.info("No 'Next' button found. Reached the end of the results.")
+                    logging.info("Could not find the 'Next' button after 10 seconds. Assuming end of results.")
                     break
 
             stop_requested = True
         except Exception as e:
-            logging.error(f"An unexpected error occurred on attempt {attempt + 1}: {e}", exc_info=True)
-            if attempt < MAX_RETRIES - 1: logging.info("Retrying in 30 seconds..."); time.sleep(30)
-            else: logging.error("Max retries reached. Exiting.")
+            logging.error(f"An unexpected error occurred: {e}", exc_info=True)
         finally:
             if articles_batch: save_progress(articles_batch, args.output_file, CHECKPOINT_FILE)
             if driver:
