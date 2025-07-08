@@ -1,32 +1,1218 @@
-2025-07-07 17:54:43,031 - INFO - --- Starting Scraping for Prothom Alo with Surgical Clicking ---
-2025-07-07 17:54:51,278 - INFO - patching driver executable C:\Users\ASUS\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
-2025-07-07 17:54:55,530 - INFO - 
+2025-07-07 20:28:03,576 - INFO - Loaded 5795 existing URLs from 'prothom_alo_articles.csv'.
+2025-07-07 20:28:03,576 - INFO - --- Starting Scraping for Prothom Alo with Surgical Clicking ---
+2025-07-07 20:28:11,736 - INFO - patching driver executable C:\Users\ASUS\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-07 20:28:14,393 - INFO - 
 --- Starting section: https://www.prothomalo.com/bangladesh ---
-2025-07-07 17:55:00,718 - INFO - Human behavior: Simulating reading for 3-6s...
-2025-07-07 17:55:07,999 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:08,843 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:55:15,727 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:16,498 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:55:21,825 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:22,719 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:55:28,626 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:29,422 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:55:35,759 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:36,406 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:55:42,024 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:42,970 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:55:49,939 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:50,898 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:55:57,621 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:55:58,343 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:56:06,033 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:56:06,667 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:56:13,918 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:56:14,528 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:56:21,465 - INFO - Human behavior: Mouse moved to target element.
-2025-07-07 17:56:22,386 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
-2025-07-07 17:56:26,881 - INFO - Appended 50 new articles to 'prothom_alo_articles.csv'
-2025-07-07 17:56:26,881 - INFO - 
+2025-07-07 20:28:19,109 - INFO - Human behavior: Simulating reading for 3-6s...
+2025-07-07 20:28:26,002 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:28:26,987 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:28:32,410 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:28:33,375 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:28:38,958 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:28:39,925 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:28:46,374 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:28:46,903 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:28:52,540 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:28:53,245 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:28:59,740 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:00,537 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:13,217 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:14,181 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:20,701 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:21,780 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:26,421 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:26,991 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:31,724 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:32,550 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:38,704 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:39,400 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:44,550 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:45,189 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:50,755 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:51,692 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:29:56,366 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:29:57,077 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:02,705 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:03,613 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:09,631 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:10,642 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:16,363 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:17,021 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:23,449 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:24,027 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:28,963 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:29,674 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:35,117 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:36,045 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:41,724 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:42,510 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:48,324 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:49,434 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:30:54,778 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:30:55,487 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:01,423 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:02,467 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:09,009 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:10,033 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:14,974 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:15,951 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:22,401 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:23,500 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:29,619 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:30,271 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:36,439 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:37,328 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:43,429 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:44,318 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:49,686 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:50,300 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:31:55,634 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:31:56,357 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:01,860 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:02,740 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:07,726 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:08,826 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:13,853 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:14,569 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:21,348 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:22,539 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:28,064 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:28,837 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:34,461 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:35,503 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:41,010 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:41,936 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:48,689 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:49,447 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:32:55,488 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:32:56,364 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:01,354 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:02,348 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:07,871 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:08,564 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:13,420 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:14,462 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:21,235 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:22,194 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:28,649 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:29,547 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:35,352 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:36,441 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:43,087 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:44,026 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:50,868 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:51,825 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:33:58,297 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:33:59,375 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:04,467 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:05,605 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:11,113 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:11,972 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:17,508 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:18,350 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:24,660 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:25,382 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:31,242 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:32,315 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:39,039 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:40,053 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:46,174 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:46,979 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:52,471 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:34:53,678 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:34:59,441 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:00,356 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:07,374 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:08,381 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:14,499 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:15,814 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:21,180 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:22,143 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:27,380 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:28,141 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:33,650 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:34,454 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:40,981 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:42,021 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:48,530 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:49,276 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:35:56,281 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:35:57,205 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:02,291 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:03,303 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:10,099 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:11,139 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:16,996 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:18,102 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:24,878 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:25,903 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:33,023 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:34,098 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:40,457 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:41,267 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:48,422 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:49,210 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:36:54,291 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:36:55,496 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:01,132 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:02,484 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:09,465 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:10,579 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:17,450 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:18,743 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:23,945 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:25,021 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:30,389 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:31,355 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:36,909 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:37,839 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:44,035 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:45,236 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:50,575 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:51,751 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:37:58,472 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:37:59,416 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:05,843 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:07,216 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:13,529 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:14,366 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:21,408 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:22,695 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:28,741 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:29,834 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:35,137 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:36,513 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:41,689 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:42,746 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:48,620 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:49,710 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:38:56,497 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:38:57,691 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:02,968 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:03,874 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:10,796 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:11,729 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:18,712 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:19,672 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:26,046 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:27,172 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:33,809 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:35,033 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:40,913 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:41,999 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:48,058 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:49,168 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:39:55,939 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:39:57,338 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:03,418 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:04,497 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:10,209 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:11,479 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:18,218 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:19,132 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:25,687 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:27,111 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:32,699 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:34,161 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:40,517 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:41,529 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:47,382 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:49,102 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:40:54,381 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:40:55,695 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:02,295 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:03,421 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:09,795 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:11,405 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:17,976 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:19,235 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:25,789 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:27,133 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:33,524 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:34,957 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:40,460 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:41,734 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:47,288 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:48,635 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:41:54,234 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:41:55,578 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:01,774 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:03,169 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:10,169 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:11,499 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:17,172 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:18,159 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:24,267 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:25,480 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:32,497 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:33,942 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:39,417 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:40,554 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:46,119 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:47,571 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:42:53,982 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:42:55,270 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:01,194 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:02,384 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:09,263 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:10,503 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:15,973 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:17,080 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:23,779 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:25,316 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:32,285 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:33,418 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:39,446 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:40,953 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:47,686 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:49,134 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:43:55,119 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:43:56,531 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:02,517 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:03,883 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:09,498 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:10,756 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:17,167 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:18,606 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:25,305 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:27,039 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:33,696 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:35,174 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:42,040 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:43,270 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:49,876 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:51,425 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:44:56,981 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:44:58,698 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:03,879 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:05,454 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:12,344 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:13,850 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:19,624 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:20,772 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:26,604 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:28,233 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:34,853 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:36,148 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:42,040 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:43,297 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:49,854 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:51,243 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:45:57,363 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:45:58,714 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:46:05,403 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:46:06,777 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:46:14,092 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:46:15,338 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:46:21,030 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:46:22,321 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:46:29,526 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:46:30,729 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:46:37,397 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:46:39,001 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:46:44,829 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:46:46,332 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:46:52,326 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:46:53,753 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:00,645 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:47:01,935 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:08,658 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:47:10,354 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:17,915 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:47:19,244 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:26,619 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:47:28,510 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:34,956 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:47:37,158 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:42,999 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:47:45,191 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:51,769 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:47:53,145 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:47:59,517 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:01,159 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:48:07,415 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:08,971 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:48:16,057 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:17,523 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:48:23,148 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:24,605 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:48:31,479 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:33,156 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:48:39,528 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:41,153 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:48:47,556 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:49,188 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:48:55,326 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:48:56,530 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:49:04,008 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:49:05,611 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:49:12,862 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:49:14,684 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:49:22,223 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:49:23,939 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:49:29,866 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:49:31,597 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:49:38,530 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:49:39,989 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:49:46,962 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:49:48,345 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:49:54,248 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:49:55,988 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:01,461 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:03,050 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:09,917 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:11,418 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:17,895 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:19,367 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:26,149 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:27,822 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:33,740 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:35,034 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:42,133 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:43,653 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:49,932 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:51,826 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:50:58,263 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:50:59,844 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:51:06,851 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:51:08,415 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:51:14,592 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:51:16,348 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:51:23,698 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:51:25,055 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:51:31,873 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:51:33,237 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:51:40,443 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:51:41,933 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:51:48,316 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:51:50,519 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:51:56,625 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:51:57,922 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:52:05,271 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:52:06,939 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:52:13,006 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:52:14,411 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:52:21,018 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:52:22,815 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:52:29,305 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:52:30,993 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:52:38,365 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:52:40,424 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:52:48,030 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:52:49,906 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:52:56,628 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:52:57,911 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:03,683 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:53:05,175 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:10,923 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:53:12,650 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:18,408 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:53:20,170 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:26,217 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:53:28,162 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:34,639 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:53:36,370 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:42,753 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:53:44,159 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:50,174 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:53:52,027 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:53:59,108 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:54:00,770 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:54:08,175 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:54:09,908 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:54:17,636 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:54:19,993 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:54:25,914 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:54:27,363 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:54:33,926 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:54:35,756 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:54:43,044 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:54:44,577 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:54:51,998 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:54:53,350 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:54:59,959 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:55:01,372 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:55:08,419 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:55:10,182 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:55:17,610 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:55:19,439 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:55:25,437 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:55:27,166 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:55:33,183 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:55:34,783 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:55:41,518 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:55:42,966 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:55:50,185 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:55:51,795 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:55:59,514 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:56:01,174 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:56:08,256 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:56:10,440 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:56:18,112 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:56:19,856 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:56:27,064 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:56:29,179 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:56:35,623 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:56:37,393 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:56:45,483 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:56:47,167 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:56:54,736 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:56:56,586 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:57:03,515 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:57:05,411 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:57:13,164 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:57:14,935 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:57:21,868 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:57:23,727 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:57:31,659 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:57:33,293 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:57:40,541 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:57:42,372 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:57:48,955 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:57:50,854 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:57:57,881 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:57:59,815 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:58:05,694 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:58:07,668 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:58:16,027 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:58:18,002 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:58:24,490 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:58:26,140 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:58:33,116 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:58:34,848 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:58:42,781 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:58:44,523 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:58:51,253 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:58:53,362 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:59:00,302 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:59:02,498 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:59:09,356 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:59:11,298 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:59:18,076 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:59:20,074 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:59:27,083 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:59:29,097 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:59:36,129 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:59:37,873 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:59:45,246 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:59:47,575 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 20:59:53,472 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 20:59:55,188 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:00:01,440 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:00:03,374 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:00:10,740 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:00:12,785 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:00:20,060 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:00:21,979 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:00:29,085 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:00:30,937 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:00:36,486 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:00:38,659 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:00:44,901 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:00:47,017 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:00:53,699 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:00:55,740 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:01:01,614 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:01:03,394 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:01:09,767 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:01:11,439 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:01:18,833 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:01:20,977 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:01:28,414 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:01:30,089 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:01:36,809 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:01:38,917 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:01:46,427 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:01:48,280 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:01:55,072 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:01:57,069 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:02:04,821 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:02:06,934 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:02:14,048 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:02:16,129 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:02:23,902 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:02:25,983 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:02:33,855 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:02:35,809 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:02:42,333 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:02:44,066 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:02:50,387 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:02:52,278 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:02:59,351 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:03:01,626 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:03:07,872 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:03:09,718 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:03:17,693 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:03:20,101 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:03:26,511 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:03:28,247 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:03:34,558 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:03:36,830 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:03:43,706 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:03:45,970 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:03:52,352 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:03:54,218 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:04:01,851 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:04:03,817 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:04:10,916 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:04:13,753 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:04:21,857 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:04:23,693 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:04:29,841 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:04:31,557 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:04:39,423 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:04:41,335 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:04:48,195 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:04:50,281 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:04:56,715 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:04:58,571 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:05:06,244 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:05:08,606 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:05:16,347 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:05:18,601 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:05:24,759 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:05:27,070 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:05:33,852 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:05:35,700 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:05:43,636 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:05:46,492 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:05:54,003 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:05:56,483 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:06:04,535 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:06:06,795 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:06:14,473 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:06:16,620 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:06:23,067 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:06:25,311 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:06:31,760 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:06:33,652 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:06:39,992 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:06:42,101 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:06:48,973 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:06:50,840 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:06:58,565 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:07:00,618 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:07:07,892 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:07:10,226 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:07:16,780 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:07:18,963 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:07:25,675 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:07:27,918 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:07:35,342 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:07:37,791 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:07:44,213 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:07:46,663 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:07:54,044 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:07:55,918 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:08:03,593 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:08:06,655 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:08:12,763 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:08:14,867 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:08:22,325 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:08:24,324 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:08:31,581 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:08:33,894 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:08:41,042 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:08:43,419 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:08:50,873 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:08:53,074 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:08:59,521 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:09:01,819 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:09:08,192 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:09:10,506 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:09:17,432 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:09:19,775 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:09:26,615 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:09:28,644 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:09:35,353 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:09:37,377 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:09:44,054 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:09:46,358 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:09:54,649 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:09:57,032 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:10:05,095 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:10:07,644 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:10:15,564 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:10:17,761 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:10:26,114 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:10:28,314 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:10:34,384 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:10:36,962 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:10:43,191 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:10:45,422 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:10:53,073 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:10:55,459 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:11:02,615 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:11:05,258 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:11:13,179 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:11:15,678 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:11:22,700 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:11:24,940 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:11:33,268 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:11:35,612 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:11:42,835 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:11:45,070 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:11:52,040 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:11:54,622 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:12:02,377 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:12:04,671 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:12:12,179 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:12:14,489 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:12:21,571 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:12:24,925 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:12:31,792 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:12:34,244 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:12:41,487 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:12:44,096 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:12:51,585 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:12:54,014 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:13:01,769 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:13:04,226 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:13:12,547 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:13:14,561 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:13:21,813 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:13:24,170 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:13:32,380 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:13:34,525 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:13:42,126 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:13:44,382 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:13:51,819 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:13:54,130 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:14:01,309 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:14:03,631 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:14:11,870 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:14:14,041 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:14:21,059 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:14:23,420 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:14:32,637 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:14:35,036 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:14:42,530 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:14:45,171 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:14:52,103 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:14:54,738 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:15:03,062 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:15:05,450 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:15:14,879 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:15:17,267 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:15:25,093 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:15:27,481 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:15:34,719 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:15:37,203 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:15:45,724 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:15:48,387 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:15:56,660 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:15:59,410 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:16:07,087 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:16:09,474 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:16:17,797 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:16:20,311 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:16:28,129 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:16:30,421 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:16:37,909 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:16:40,520 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:16:48,805 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:16:51,516 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:16:59,889 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:17:02,497 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:17:10,763 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:17:12,901 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:17:21,070 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:17:23,518 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:17:32,017 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:17:34,808 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:17:43,247 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:17:45,548 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:17:53,181 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:17:55,938 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:18:03,180 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:18:06,023 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:18:14,515 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:18:17,141 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:18:24,707 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:18:27,423 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:18:35,072 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:18:37,881 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:18:46,287 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:18:49,511 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:18:58,219 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:19:00,865 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:19:10,678 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:19:13,119 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:19:20,315 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:19:23,339 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:19:32,416 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:19:34,732 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:19:43,091 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:19:46,590 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:19:53,809 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:19:56,171 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:20:03,219 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:20:05,712 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:20:12,779 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:20:15,149 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:20:23,053 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:20:25,772 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:20:33,941 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:20:36,686 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:20:44,211 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:20:46,728 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:20:54,942 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:20:57,462 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:21:04,814 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:21:07,348 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:21:15,145 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:21:17,631 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:21:25,593 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:21:28,053 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:21:35,826 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:21:38,605 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:21:47,482 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:21:50,405 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:21:58,950 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:22:01,589 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:22:09,801 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:22:12,143 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:22:21,038 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:22:23,575 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:22:32,363 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:22:35,340 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:22:44,063 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:22:46,411 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:22:54,127 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:22:56,975 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:23:05,727 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:23:08,106 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:23:17,556 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:23:20,451 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:23:27,906 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:23:30,473 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:23:38,285 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:23:40,839 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:23:48,149 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:23:50,681 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:23:57,880 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:24:00,477 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:24:09,159 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:24:13,195 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:24:21,295 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:24:24,125 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:24:33,542 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:24:36,447 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:24:44,081 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:24:46,639 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:24:54,817 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:24:57,674 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:25:06,104 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:25:08,527 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:25:16,930 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:25:19,515 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:25:28,042 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:25:31,113 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:25:38,871 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:25:41,746 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:25:49,810 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:25:53,591 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:26:02,493 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:26:05,304 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:26:13,198 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:26:15,863 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:26:23,692 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:26:26,474 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:26:34,937 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:26:37,868 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:26:46,219 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:26:48,939 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:26:57,396 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:27:00,242 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:27:08,981 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:27:11,558 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:27:20,034 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:27:22,895 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:27:31,708 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:27:34,838 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:27:43,736 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:27:46,297 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:27:54,004 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:27:56,808 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:28:05,687 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:28:08,360 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:28:16,427 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:28:19,045 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:28:27,076 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:28:30,071 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:28:37,845 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:28:40,575 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:28:49,511 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:28:52,171 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:29:00,710 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:29:03,615 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:29:11,334 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:29:13,993 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:29:21,957 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:29:24,544 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:29:33,329 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:29:36,344 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:29:44,169 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:29:46,904 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:29:55,649 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:29:58,538 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:30:05,897 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:30:08,425 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:30:15,786 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:30:18,597 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:30:27,937 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:30:30,860 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:30:38,176 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:30:40,737 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:30:49,314 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:30:52,492 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:31:01,395 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:31:04,552 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:31:12,329 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:31:14,880 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:31:23,568 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:31:26,209 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:31:34,965 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:31:37,703 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:31:46,422 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:31:49,410 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:31:57,495 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:32:00,806 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:32:09,693 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:32:12,338 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:32:21,258 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:32:24,413 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:32:33,081 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:32:35,975 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:32:44,036 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:32:47,027 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:32:55,971 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:32:58,706 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:33:07,768 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:33:10,793 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:33:18,745 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:33:21,395 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:33:29,842 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:33:33,036 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:33:41,066 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:33:44,165 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:33:53,467 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:33:56,604 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:34:06,436 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:34:09,547 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:34:18,254 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:34:21,195 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:34:29,650 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:34:32,318 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:34:40,581 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:34:43,593 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:34:52,597 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:34:55,671 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:35:03,777 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:35:06,579 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:35:14,640 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:35:17,777 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:35:25,838 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:35:28,755 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:35:36,667 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:35:39,584 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:35:48,863 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:35:52,069 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:36:00,084 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:36:02,962 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:36:12,032 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:36:15,235 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:36:23,431 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:36:26,638 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:36:35,944 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:36:39,038 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:36:47,277 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:36:50,642 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:36:59,008 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:37:02,346 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:37:10,620 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:37:13,419 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:37:22,957 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:37:26,013 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:37:34,701 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:37:37,607 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:37:46,645 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:37:49,652 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:37:58,645 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:38:01,765 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:38:11,112 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:38:14,185 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:38:22,708 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:38:25,654 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:38:34,123 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:38:37,067 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:38:45,920 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:38:49,038 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:38:58,502 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:39:01,754 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:39:10,066 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:39:13,293 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:39:22,867 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:39:25,815 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:39:34,411 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:39:37,552 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:39:47,341 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:39:50,495 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:39:58,770 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:40:02,088 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:40:10,638 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:40:13,387 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:40:21,938 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:40:26,358 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:40:35,927 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:40:38,897 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:40:47,311 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:40:50,598 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:40:59,179 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:41:02,529 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:41:11,243 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:41:14,617 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:41:24,408 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:41:27,916 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:41:36,225 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:41:39,249 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:41:47,489 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:41:51,095 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:41:59,784 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:42:02,794 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:42:12,503 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:42:15,841 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:42:24,646 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:42:28,075 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:42:36,570 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:42:39,426 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:42:49,361 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:42:52,616 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:43:01,439 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:43:04,385 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:43:12,823 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:43:15,884 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:43:25,684 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:43:29,110 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:43:38,925 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:43:42,274 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:43:50,847 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:43:53,912 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:44:02,676 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:44:06,086 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:44:14,388 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:44:18,388 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:44:27,596 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:44:31,101 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:44:39,719 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:44:43,071 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:44:51,752 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:44:54,626 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:45:03,345 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:45:06,732 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:45:17,348 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:45:20,555 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:45:29,326 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:45:32,824 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:45:41,677 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:45:44,606 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:45:54,171 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:45:57,783 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:46:08,027 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:46:11,089 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:46:20,161 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:46:23,163 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:46:32,140 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:46:35,497 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:46:45,673 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:46:48,795 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:46:57,732 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:47:01,073 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:47:10,044 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:47:13,610 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:47:22,225 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:47:26,845 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:47:35,888 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:47:39,176 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:47:49,179 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:47:52,324 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:48:01,634 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:48:04,755 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:48:14,568 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:48:17,936 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:48:26,929 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:48:31,553 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:48:40,744 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:48:44,152 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:48:53,758 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:48:57,306 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:49:06,455 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:49:09,586 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:49:19,571 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:49:22,782 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:49:31,746 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:49:35,028 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:49:44,198 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:49:47,741 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:49:58,479 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:50:01,618 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:50:10,886 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:50:14,400 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:50:23,657 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:50:27,139 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:50:37,498 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:50:40,822 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:50:49,976 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:50:53,343 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:51:04,083 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:51:07,967 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:51:17,265 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:51:20,356 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:51:29,596 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:51:32,875 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:51:43,128 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:51:46,505 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:51:56,523 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:52:00,045 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:52:09,284 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:52:12,610 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:52:22,690 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:52:26,392 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:52:35,706 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:52:39,013 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:52:48,215 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:52:51,553 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:53:01,904 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:53:05,435 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:53:14,928 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:53:18,199 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:53:27,474 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:53:31,019 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:53:41,355 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:53:44,711 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:53:53,980 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:53:57,557 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:54:06,950 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:54:10,172 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:54:21,763 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:54:25,553 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:54:35,343 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:54:39,061 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:54:48,325 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:54:51,668 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:55:02,422 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:55:05,693 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:55:19,019 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:55:22,868 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:55:33,066 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:55:36,617 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:55:47,215 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:55:50,864 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:56:00,179 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:56:03,617 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:56:13,260 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:56:16,545 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:56:27,423 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:56:31,039 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:56:41,121 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:56:44,834 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:56:58,304 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:57:01,725 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:57:13,365 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:57:16,861 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:57:26,063 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:57:29,594 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:57:39,438 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:57:44,289 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:57:53,615 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:57:57,509 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:58:06,714 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:58:10,595 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:58:21,432 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:58:25,200 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:58:34,799 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:58:38,742 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:58:48,516 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:58:51,941 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:59:02,378 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:59:06,082 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:59:15,417 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:59:18,742 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:59:28,558 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:59:32,431 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:59:44,770 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 21:59:48,614 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 21:59:58,367 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:00:02,234 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:00:13,412 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:00:17,241 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:00:26,929 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:00:30,313 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:00:40,193 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:00:45,008 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:00:55,087 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:00:58,855 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:01:08,555 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:01:12,290 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:01:22,932 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:01:26,680 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:01:36,923 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:01:40,459 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:01:50,333 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:01:55,458 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:02:05,510 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:02:09,121 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:02:20,898 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:02:24,902 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:02:33,659 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:02:37,718 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:02:47,917 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:02:51,927 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:03:02,750 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:03:06,377 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:03:15,983 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:03:19,694 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:03:30,935 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:03:34,474 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:03:44,730 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:03:48,352 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:03:58,226 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:04:02,266 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:04:14,536 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:04:18,312 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:04:29,381 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:04:33,363 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:04:46,390 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:04:50,329 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:05:03,275 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:05:06,916 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:05:19,923 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:05:25,027 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:05:36,976 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:05:40,976 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:05:53,234 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:05:58,531 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:06:10,582 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:06:14,463 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:06:25,918 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:06:31,149 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:06:42,852 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:06:46,458 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:06:59,509 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:07:03,305 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:07:15,271 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:07:20,946 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:07:34,321 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:07:36,896 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:07:52,027 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:07:54,550 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:08:08,087 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:08:10,323 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:08:24,453 - INFO - Human behavior: Mouse moved to target element.
+2025-07-07 22:08:26,820 - INFO - Surgical Click: Executed JavaScript click to avoid interception.
+2025-07-07 22:08:33,619 - WARNING - 'Load More' button is not adding new content. Stopping.
+2025-07-07 22:08:34,012 - INFO - Appended 117 new articles to 'prothom_alo_articles.csv'
+2025-07-07 22:08:34,044 - INFO - 
 --- Finalizing Data ---
-2025-07-07 17:56:27,149 - INFO - Removed 0 duplicates.
-2025-07-07 17:56:27,149 - INFO - ✅ Success! 50 unique articles saved to 'prothom_alo_articles.csv'
+2025-07-07 22:08:35,164 - INFO - Removed 0 duplicates.
+2025-07-07 22:08:35,164 - INFO - ✅ Success! 5912 unique articles saved to 'prothom_alo_articles.csv'
